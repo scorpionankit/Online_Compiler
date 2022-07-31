@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Online Compiler</title>
+    <link rel = "stylesheet"  href = "style.css"></link>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/ace.js" type = "text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+    <select id = "langSelect">
+        <option>C</option>
+        <option>C++</option>
+        <option>Java</option>
+        <option>Python</option>
+        <option>JavaScript</option>
+    </select>
+
+    <!---<div id = "editor"></div>
+
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+    </script>-->
+    <div id = "editor">
+        <textarea name="textarea" id="textarea" cols="121" rows="12" ></textarea>
+    </div>
+
+    <div id = "outputScreen">
+        <p id = "outputHeading">Output: </p>
+    </div>
+
+    <div id = "buttonPortion">
+        <button id = "btn">Compile</button>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>

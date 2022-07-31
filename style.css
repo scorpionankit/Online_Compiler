@@ -1,0 +1,35 @@
+#outputScreen
+{
+    height: 200px;
+    background-color: black;
+}
+
+#outputHeading
+{
+    color: white;
+    font-size: 30px;
+}
+
+#buttonPortion
+{
+    margin-top: 10px;
+}
+
+#btn
+{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    border: none;
+}
+
+#textarea
+{
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+    width: 100%;
+}
